@@ -1,0 +1,26 @@
+Nov 23, 2020 10:58:02 AM registry.Logging logging
+INFO: New service registered: hello you localhost:8000
+Nov 23, 2020 6:39:30 PM registry.Logging logging
+INFO: New service registered: test localhost:8000
+Nov 23, 2020 6:42:25 PM registry.Logging logging
+INFO: New service registered: test localhost:8000
+Nov 23, 2020 6:46:28 PM registry.Logging logging
+INFO: New service registered: amehlhase localhost:10000
+Nov 23, 2020 8:42:01 PM registry.Logging logging
+INFO: New service registered: test localhost:8000
+Dec 10, 2020 10:21:51 AM registry.Logging logging
+INFO: New service registered: test localhost:8000
+Dec 10, 2020 10:26:34 AM registry.Logging logging
+INFO: New service registered: test localhost:8000
+Dec 10, 2020 10:35:36 AM registry.Logging logging
+INFO: New service registered: test localhost:8000
+Dec 10, 2020 10:56:54 AM registry.Logging logging
+INFO: New service registered: test localhost:8000
+Dec 10, 2020 10:59:31 AM registry.Logging logging
+INFO: New service registered: test localhost:8000
+Dec 10, 2020 11:01:30 AM registry.Logging logging
+INFO: New service registered: test localhost:8000
+Feb 28, 2021 2:25:01 PM registry.Logging logging
+INFO: New service registered: test localhost:8000
+Feb 28, 2021 6:12:32 PM registry.Logging logging
+INFO: New service registered: test localhost:8000

@@ -1,0 +1,29 @@
+// This service does advanced calculations to find the mean and median of a given 
+// double array list. It will also sort in ascending order.
+// Mean will take all given numbers and find the mean of them
+
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "service";
+option java_outer_classname = "advancedCalcProto";
+
+package services;
+
+service advancedCalc {
+  rpc mean (advancedCalcRequest) returns (advancedCalcResponse) {}
+  rpc median (advancedCalcRequest) returns (advancedCalcResponse) {}
+}
+
+message advancedCalcRequest {
+  repeated double num = 1; // Double array list of elements
+  double elements = 2;     // Number of elements in the list
+}
+
+// Response for mean and median
+message advancedCalcResponse {
+  bool isSuccess = 1;
+  double solution = 2;
+  string error = 3;
+}
+
